@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
     username: ${PGUSER}
-    password: ${PGPASSORD}
+    password: ${PGPASSWORD}
   jpa:
     open-in-view: false
     hibernate: create

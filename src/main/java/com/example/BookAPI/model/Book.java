@@ -13,11 +13,11 @@ public class Book {
     private String name;
     private LocalDate release;
     private String synopsis;
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     private Author author;
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     private Publisher publisher;
-    @ManyToMany
+    @ManyToOne(cascade = CascadeType.ALL)
     private List<Genre> genre;
 
     public Long getId() {
