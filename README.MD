@@ -29,5 +29,5 @@ Diagrama de classes:
 
         Book "1..N" *-- "1" Author
         Book "1..N" *-- "1" Publisher
-        Book "1..N" *-- "1" Genre
+        Book "1..N" *-- "1..N" Genre
 ```
