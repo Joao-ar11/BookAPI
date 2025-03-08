@@ -5,4 +5,5 @@ spring:
     password: ${PGPASSWORD}
   jpa:
     open-in-view: false
-    hibernate: create
+    hibernate:
+      ddl-auto: validate
